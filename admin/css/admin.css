@@ -1,0 +1,180 @@
+/*
+    Author:
+    Theme: Food Order Website Admin;
+    Versio: 1.0;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.show-area{
+    background-color: brown;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-90{
+    width: 90%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: blue;
+    color: white;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color:red;
+}
+
+.btn-secondary{
+    background-color: green;
+    color: white;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color:greenyellow;
+}
+
+.btn-danger{
+    background-color: rebeccapurple;
+    color: white;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color:royalblue;
+}
+
+.btn-tertiary{
+    background-color: rgb(108, 0, 74);
+    color: white;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-tertiary:hover{
+    background-color:rgb(147, 0, 73);
+}
+
+/* CSS for menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+
+.menu1 ul{
+    list-style-type: none; 
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(0, 0, 82);
+}
+
+.menu ul li a:hover{
+    color:blue;
+}
+
+/* CSS for main-content */
+.main-content{
+    background-color: aliceblue;
+    padding: 3%0;
+}
+
+.col-4{
+    width: 15%;
+    background-color: white;
+    margin: 2%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS For Text */
+.success{
+  color: green;
+  font-weight: bold;  
+}
+
+.fail{
+    color: red;
+    font-weight: bold;
+}
+
+/* CSS for footer */
+.footer{
+    background-color: rgb(13, 0, 255);
+    color: white;
+}
+
+/* CSS for Login */
+.login{
+    width: 30%;
+    border: 1px solid gray;
+    margin: 15% auto;
+    /*margin: [top-bottom] [left-right]*/
+    /*auto = center*/
+    padding: 2%;
+}
+
+.menu ul li .logout{
+    font-weight: bold;
+    font-size: smaller;
+    background-color:red;
+    color:aliceblue;
+    padding: 3px;
+}
+
+.menu ul li .logout:hover{
+    background-color:rgb(251, 86, 86);
+    color:aliceblue;
+}
+
